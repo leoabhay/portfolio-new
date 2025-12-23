@@ -28,24 +28,24 @@ const projects = [
   //   image: "/meaningby.png",
   //   link: "https://github.com/leoabhay/MeaningBy",
   // },
-  {
-    title: "Rock Paper Scissors",
-    description: "A simple game using JavaScript.",
-    image: "/rock.png",
-    link: "https://leoabhay.github.io/Rock-paper-scissors/",
-  },
-  {
-    title: "Tic Tac Toe",
-    description: "A simple game using Java.",
-    image: "/tictactoe.png",
-    link: "https://github.com/leoabhay/TicTacToe",
-  },
-  {
-    title: "Ping Pong",
-    description: "A simple game using JavaScript.",
-    image: "/ping.png",
-    link: "https://github.com/leoabhay/PingPong",
-  },
+  // {
+  //   title: "Rock Paper Scissors",
+  //   description: "A simple game using JavaScript.",
+  //   image: "/rock.png",
+  //   link: "https://leoabhay.github.io/Rock-paper-scissors/",
+  // },
+  // {
+  //   title: "Tic Tac Toe",
+  //   description: "A simple game using Java.",
+  //   image: "/tictactoe.png",
+  //   link: "https://github.com/leoabhay/TicTacToe",
+  // },
+  // {
+  //   title: "Ping Pong",
+  //   description: "A simple game using JavaScript.",
+  //   image: "/ping.png",
+  //   link: "https://github.com/leoabhay/PingPong",
+  // },
   {
     title: "URL Shortener",
     description: "A simple URL shortener built using Node.js.",
@@ -110,7 +110,7 @@ const projects = [
     title: "Portfolio",
     description: "My own portfolio website.",
     image: "/portfolio1.png",
-    link: "",
+    link: "https://github.com/leoabhay/portfolio-new",
   },
     {
     title: "Bike Hub",

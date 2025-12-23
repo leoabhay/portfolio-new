@@ -134,7 +134,7 @@ export function HeroSection() {
                 }}
                 onMouseEnter={() => playSound("hover", 0.15)}
               >
-                View Work
+                View Works
               </a>
             </div>
           </div>
@@ -176,12 +176,12 @@ export function HeroSection() {
         </div>
 
         <div className="absolute bottom-12 left-1/2 -translate-x-1/2 animate-bounce-slow">
-          <div className="flex flex-col items-center gap-2 text-white/50">
+          {/* <div className="flex flex-col items-center gap-2 text-white/50">
             <span className="text-sm font-light uppercase tracking-widest">Scroll Down</span>
             <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
               <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 14l-7 7m0 0l-7-7m7 7V3" />
-            </svg>
-          </div>
+            </svg> */}
+          {/* </div> */}
         </div>
       </div>
     </section>
