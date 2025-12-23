@@ -6,7 +6,6 @@ import { useState, useEffect } from "react"
 import Link from "next/link"
 import { cn } from "@/lib/utils"
 import { useSound } from "@/hooks/use-sound"
-import { ThemeToggle } from "@/components/theme-toggle"
 
 interface NavbarProps {
   activeSection: string
@@ -90,14 +89,10 @@ export function Navbar({ activeSection }: NavbarProps) {
                 </a>
               </li>
             ))}
-            <li>
-              <ThemeToggle />
-            </li>
           </ul>
 
           {/* Mobile Navigation */}
           <div className="md:hidden flex items-center gap-4">
-            <ThemeToggle />
             <button className="flex flex-col gap-1.5 z-50" onClick={toggleMenu} aria-label="Toggle menu">
               <span
                 className={cn(

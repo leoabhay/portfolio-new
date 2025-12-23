@@ -118,6 +118,18 @@ const projects = [
     image: "/bike.png",
     link: "https://github.com/leoabhay/BikeHub",
   },
+  {
+    title: "Campus Ease",
+    description: "A major college project made using MEAN and Python.",
+    image: "/campusease.png",
+    link: "https://github.com/leoabhay/CampusEase-frontend",
+  },
+  {
+    title: "Face Recognition Attendance System",
+    description: "A project made using Python.",
+    image: "/face.png",
+    link: "https://github.com/leoabhay/face-recognition-attendance",
+  },
 ]
 
 export function ProjectsSection() {
