@@ -1,10 +1,12 @@
 "use client"
 
 import type React from "react"
+
 import { useState, useEffect } from "react"
 import Link from "next/link"
 import { cn } from "@/lib/utils"
 import { useSound } from "@/hooks/use-sound"
+import { ThemeToggle } from "@/components/theme-toggle"
 
 interface NavbarProps {
   activeSection: string
@@ -88,10 +90,14 @@ export function Navbar({ activeSection }: NavbarProps) {
                 </a>
               </li>
             ))}
+            <li>
+              <ThemeToggle />
+            </li>
           </ul>
 
-          {/* Mobile Menu Button */}
-          <div className="md:hidden flex items-center">
+          {/* Mobile Navigation */}
+          <div className="md:hidden flex items-center gap-4">
+            <ThemeToggle />
             <button className="flex flex-col gap-1.5 z-50" onClick={toggleMenu} aria-label="Toggle menu">
               <span
                 className={cn(
@@ -109,7 +115,7 @@ export function Navbar({ activeSection }: NavbarProps) {
             </button>
           </div>
 
-          {/* Mobile Navigation Overlay */}
+          {/* Mobile Navigation */}
           <div
             className={cn(
               "fixed top-20 left-0 w-full h-[calc(100vh-5rem)] glass-effect transition-all duration-500 md:hidden",
