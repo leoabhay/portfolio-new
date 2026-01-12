@@ -22,30 +22,18 @@ const projects = [
     image: "/inventory.png",
     link: "https://github.com/leoabhay/Inventory-Management-System",
   },
-  // {
-  //   title: "Meaning By",
-  //   description: "A simple e-dictionary web app built using React and Python.",
-  //   image: "/meaningby.png",
-  //   link: "https://github.com/leoabhay/MeaningBy",
-  // },
-  // {
-  //   title: "Rock Paper Scissors",
-  //   description: "A simple game using JavaScript.",
-  //   image: "/rock.png",
-  //   link: "https://leoabhay.github.io/Rock-paper-scissors/",
-  // },
-  // {
-  //   title: "Tic Tac Toe",
-  //   description: "A simple game using Java.",
-  //   image: "/tictactoe.png",
-  //   link: "https://github.com/leoabhay/TicTacToe",
-  // },
-  // {
-  //   title: "Ping Pong",
-  //   description: "A simple game using JavaScript.",
-  //   image: "/ping.png",
-  //   link: "https://github.com/leoabhay/PingPong",
-  // },
+  {
+    title: "Meaning By",
+    description: "A simple e-dictionary web app built using React and Python.",
+    image: "/meaningby.png",
+    link: "https://github.com/leoabhay/MeaningBy",
+  },
+  {
+    title: "Tic Tac Toe",
+    description: "A simple game using Java.",
+    image: "/tictactoe.png",
+    link: "https://github.com/leoabhay/TicTacToe",
+  },
   {
     title: "URL Shortener",
     description: "A simple URL shortener built using Node.js.",
@@ -77,12 +65,6 @@ const projects = [
     link: "https://leoabhay.github.io/flappy-bird/",
   },
   {
-    title: "Portfolio",
-    description: "A simple portfolio made using HTML and CSS.",
-    image: "/portfolio.png",
-    link: "https://github.com/leoabhay/portfolio",
-  },
-  {
     title: "Movie Search",
     description: "A simple website built using React.",
     image: "/moviesearch.png",
@@ -101,12 +83,6 @@ const projects = [
     link: "https://github.com/leoabhay/shopping-cart",
   },
   {
-    title: "Real-Time Chat App",
-    description: "A simple real time chat app made using Node.js and socket.io.",
-    image: "/chat.png",
-    link: "https://real-time-chat-app-49zt.onrender.com",
-  },
-  {
     title: "Portfolio",
     description: "My own portfolio website.",
     image: "/portfolio1.png",
@@ -117,6 +93,18 @@ const projects = [
     description: "A bike management website built using Nodejs.",
     image: "/bike.png",
     link: "https://github.com/leoabhay/BikeHub",
+  },
+  {
+    title: "FC Vorpal Reapers",
+    description: "A project made using MERN.",
+    image: "/vorpal.png",
+    link: "https://github.com/leoabhay/FC-Vorpal-Reapers",
+  },
+  {
+    title: "Record Kotha",
+    description: "A project made using MERN.",
+    image: "/record.png",
+    link: "https://github.com/leoabhay/Record-Kotha",
   },
   {
     title: "Campus Ease",

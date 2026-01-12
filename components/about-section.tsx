@@ -30,7 +30,7 @@ export function AboutSection() {
             </h1>
             <h2 className="text-2xl md:text-3xl font-semibold mb-6 text-light-color">IT Engineer</h2>
             <p className="text-lg leading-relaxed text-white/70 mb-8">
-              Recently, I've completed my Bachelor's in Information Technology at NCIT. I'm passionate about
+              Recently, I've completed my Bachelor's in Information Technology at NCIT and got registered as a general engineer in Nepal. I'm passionate about
               creating innovative solutions and developing applications that make a difference. With expertise in
               full-stack development, I love bringing ideas to life through clean code and intuitive user experiences.
             </p>

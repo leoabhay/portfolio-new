@@ -9,28 +9,18 @@ const _geist = Geist({ subsets: ["latin"] })
 const _geistMono = Geist_Mono({ subsets: ["latin"] })
 
 export const metadata: Metadata = {
-  title: "Abhay Chaudhary - IT Engineering Student Portfolio",
+  title: "Abhay Chaudhary",
   description:
-    "Portfolio of Abhay Chaudhary - IT Engineering Student specializing in full-stack development with Node.js, React, MongoDB, and more",
-  keywords: ["portfolio", "web developer", "IT student", "full-stack developer", "React", "Node.js"],
+    "Abhay Chaudhary",
+  keywords: ["portfolio", "web developer", "IT Engineer", "full-stack developer","Node.js"],
   authors: [{ name: "Abhay Chaudhary" }],
-  generator: "v0.app",
   icons: {
     icon: [
       {
-        url: "/icon-light-32x32.png",
-        media: "(prefers-color-scheme: light)",
+        url: "/logo.png",
+        type: "image/png",
       },
-      {
-        url: "/icon-dark-32x32.png",
-        media: "(prefers-color-scheme: dark)",
-      },
-      {
-        url: "/icon.svg",
-        type: "image/svg+xml",
-      },
-    ],
-    apple: "/apple-icon.png",
+      ],
   },
 }
 
