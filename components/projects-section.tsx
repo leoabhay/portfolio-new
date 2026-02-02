@@ -18,15 +18,15 @@ const projects = [
   },
   {
     title: "Inventory Management System",
-    description: "A minor college project made using PHP.",
+    description: "A minor college project I of NCIT made using PHP.",
     image: "/inventory.png",
-    link: "https://github.com/leoabhay/Inventory-Management-System",
+    link: "https://imsprojectncit.infinityfree.me/?i=1",
   },
   {
     title: "Meaning By",
     description: "A simple e-dictionary web app built using React and Python.",
     image: "/meaningby.png",
-    link: "https://github.com/leoabhay/MeaningBy",
+    link: "https://meaningby.netlify.app/",
   },
   {
     title: "Tic Tac Toe",
@@ -48,9 +48,9 @@ const projects = [
   },
   {
     title: "Khana Khajana",
-    description: "A minor college project made using MERN.",
+    description: "A minor college project II of NCIT made using MERN.",
     image: "/khanakhajana.png",
-    link: "https://github.com/leoabhay/khana",
+    link: "https://khanakhajanancit.netlify.app/",
   },
   {
     title: "Blog",
@@ -68,7 +68,7 @@ const projects = [
     title: "Movie Search",
     description: "A simple website built using React.",
     image: "/moviesearch.png",
-    link: "https://github.com/leoabhay/movie-search",
+    link: "https://abhaymoviesearch.vercel.app/",
   },
   {
     title: "Currency Converter",
@@ -80,7 +80,7 @@ const projects = [
     title: "Shopping Cart",
     description: "A simple web app built using React.",
     image: "/shoppingcart.png",
-    link: "https://github.com/leoabhay/shopping-cart",
+    link: "https://abhayshoppingcart.vercel.app/",
   },
   {
     title: "Portfolio",
@@ -91,32 +91,62 @@ const projects = [
     {
     title: "Bike Hub",
     description: "A bike management website built using Nodejs.",
-    image: "/bike.png",
-    link: "https://github.com/leoabhay/BikeHub",
-  },
-  {
-    title: "FC Vorpal Reapers",
-    description: "A project made using MERN.",
-    image: "/vorpal.png",
-    link: "https://github.com/leoabhay/FC-Vorpal-Reapers",
-  },
-  {
-    title: "Record Kotha",
-    description: "A project made using MERN.",
-    image: "/record.png",
-    link: "https://github.com/leoabhay/Record-Kotha",
+    image: "/bikehub.png",
+    link: "https://bikehub-szae.onrender.com",
   },
   {
     title: "Campus Ease",
-    description: "A major college project made using MEAN and Python.",
+    description: "A major college project of NCIT made using MEAN and Python.",
     image: "/campusease.png",
-    link: "https://github.com/leoabhay/CampusEase-frontend",
+    link: "https://campuseasencit.netlify.app/",
   },
   {
     title: "Face Recognition Attendance System",
     description: "A project made using Python.",
     image: "/face.png",
     link: "https://github.com/leoabhay/face-recognition-attendance",
+  },
+    {
+    title: "One Piece",
+    description: "A one piece fan website made using Typescript.",
+    image: "/onepiece.png",
+    link: "https://onee-piecee.netlify.app/",
+  },
+  {
+    title: "Chat Bot",
+    description: "A simple AI chatbot for customer support made using Python and TypeScript.",
+    image: "/chatbot.png",
+    link: "https://abhaychatbot.vercel.app/",
+  },
+    {
+    title: "Shop Hub",
+    description: "A shop management website made using MERN.",
+    image: "/shophub.png",
+    link: "https://shophubby.netlify.app/",
+  },
+    {
+    title: "Anonymous Confessions",
+    description: "A confession website made using MERN.",
+    image: "/confession.png",
+    link: "https://anony-confession.netlify.app/",
+  },
+    {
+    title: "Leo Messi",
+    description: "A lionel messi fan website made using React.",
+    image: "/leo-messi.png",
+    link: "https://leoabhay.netlify.app/",
+  },
+  {
+    title: "FC Vorpal Reapers",
+    description: "A imaginary football team website of my own made using MERN.",
+    image: "/vorpal.png",
+    link: "https://vorpalreapers.netlify.app/",
+  },
+  {
+    title: "Record Kotha",
+    description: "A project used for keeping the personal records made using MERN.",
+    image: "/record.png",
+    link: "https://record-kotha.vercel.app/",
   },
 ]
 

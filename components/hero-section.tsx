@@ -97,7 +97,7 @@ export function HeroSection() {
               </div>
               <div className="flex items-center gap-6 animate-fade-in-up animation-delay-400">
                 <h1 className="text-6xl md:text-8xl lg:text-9xl font-bold gradient-text leading-none animate-gradient-x">
-                  Abhay
+                  Er. Abhay Chaudhary
                 </h1>
                 <div className="hidden md:block w-32 h-2 bg-gradient-to-r from-primary-color to-secondary-color rounded-full animate-pulse" />
               </div>
