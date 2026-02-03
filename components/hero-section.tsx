@@ -89,7 +89,7 @@ export function HeroSection() {
 
       <div className="container mx-auto px-4 relative z-10">
         <div className="grid lg:grid-cols-2 gap-12 lg:gap-20 items-center">
-          <div className="max-w-4xl">
+          <div className="max-w-4xl order-2 lg:order-1">
             <div className="space-y-4 mb-12">
               <h2 className="text-2xl md:text-3xl font-light text-white/80 animate-fade-in-up">Hello,</h2>
               <div className="flex items-center gap-4 animate-fade-in-up animation-delay-200">
@@ -139,20 +139,20 @@ export function HeroSection() {
             </div>
           </div>
 
-          <div className="relative hidden lg:flex items-center justify-center animate-fade-in-up animation-delay-1000">
+          <div className="relative flex items-center justify-center animate-fade-in-up animation-delay-1000 mt-12 lg:mt-0 order-1 lg:order-2">
             <div className="absolute inset-0 flex items-center justify-center">
-              <div className="absolute w-[400px] h-[400px] border-4 border-primary-color/30 rounded-full animate-spin-slow" />
-              <div className="absolute w-[350px] h-[350px] border-4 border-secondary-color/30 rounded-full animate-spin-reverse" />
-              <div className="absolute w-[450px] h-[450px] border-2 border-accent-color/20 rounded-full animate-pulse-slow" />
+              <div className="absolute w-[280px] h-[280px] md:w-[400px] md:h-[400px] border-4 border-primary-color/30 rounded-full animate-spin-slow" />
+              <div className="absolute w-[240px] h-[240px] md:w-[350px] md:h-[350px] border-4 border-secondary-color/30 rounded-full animate-spin-reverse" />
+              <div className="absolute w-[320px] h-[320px] md:w-[450px] md:h-[450px] border-2 border-accent-color/20 rounded-full animate-pulse-slow" />
             </div>
 
             <div className="relative group">
               <div className="absolute -inset-4 bg-gradient-to-r from-primary-color via-accent-color to-secondary-color rounded-full opacity-75 blur-2xl animate-gradient-x group-hover:opacity-100 transition-opacity duration-500" />
 
-              <div className="relative w-[400px] h-[400px] rounded-full overflow-hidden border-8 border-white/10 shadow-2xl animate-float">
+              <div className="relative w-[280px] h-[280px] md:w-[400px] md:h-[400px] rounded-full overflow-hidden border-8 border-white/10 shadow-2xl animate-float">
                 <div className="absolute inset-0 bg-gradient-to-br from-primary-color/40 to-secondary-color/40 mix-blend-overlay z-10" />
                 <Image
-                  src="/abhay.jpg"
+                  src="/images/abhay.JPG"
                   alt="Abhay - IT Engineer"
                   width={400}
                   height={400}

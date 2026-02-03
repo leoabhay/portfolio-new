@@ -13,7 +13,7 @@ export function AboutSection() {
           <div className="w-full lg:w-1/2">
             <div className="relative h-[500px] rounded-xl overflow-hidden shadow-2xl group glass-effect">
               <Image
-                src="/abhay1.jpg"
+                src="/images/abhay1.jpg"
                 alt="Abhay Chaudhary"
                 fill
                 className="object-cover transition-transform duration-500 group-hover:scale-105"
@@ -34,13 +34,21 @@ export function AboutSection() {
               creating innovative solutions and developing applications that make a difference. With expertise in
               full-stack development, I love bringing ideas to life through clean code and intuitive user experiences.
             </p>
-            <a
-              href="/resume.pdf"
-              download
-              className="inline-block px-12 py-4 glass-effect border border-primary-color/50 text-white text-lg font-semibold uppercase tracking-wide rounded-lg transition-all duration-300 hover:bg-primary-color hover:border-primary-color hover:-translate-y-1 hover:shadow-[0_8px_32px_rgba(139,92,246,0.4)]"
-            >
-              Download Resume
-            </a>
+            <div className="flex flex-wrap gap-4 justify-center lg:justify-start">
+              <a
+                href="/Abhay Chaudhary Resume.pdf"
+                download
+                className="inline-block px-12 py-4 glass-effect border border-primary-color/50 text-white text-lg font-semibold uppercase tracking-wide rounded-lg transition-all duration-300 hover:bg-primary-color hover:border-primary-color hover:-translate-y-1 hover:shadow-[0_8px_32px_rgba(139,92,246,0.4)]"
+              >
+                Download Resume
+              </a>
+              <a
+                href="#certificates"
+                className="inline-block px-12 py-4 glass-effect border border-secondary-color/50 text-white text-lg font-semibold uppercase tracking-wide rounded-lg transition-all duration-300 hover:bg-secondary-color hover:border-secondary-color hover:-translate-y-1 hover:shadow-[0_8px_32px_rgba(6,182,212,0.4)]"
+              >
+                See Certificates
+              </a>
+            </div>
           </div>
         </div>
       </div>
