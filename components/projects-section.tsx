@@ -148,6 +148,12 @@ const projects = [
     image: "/images/record.png",
     link: "https://record-kotha.vercel.app/",
   },
+    {
+    title: "Suyog Dental Clinic",
+    description: "A project used for dental clinic using React.",
+    image: "/images/dental.png",
+    link: "https://suyogdentalclinic.netlify.app/",
+  },
 ]
 
 export function ProjectsSection() {
