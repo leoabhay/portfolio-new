@@ -42,12 +42,12 @@ export function AboutSection() {
               >
                 Download Resume
               </a>
-              <a
+              {/* <a
                 href="#certificates"
                 className="inline-block px-12 py-4 glass-effect border border-secondary-color/50 text-white text-lg font-semibold uppercase tracking-wide rounded-lg transition-all duration-300 hover:bg-secondary-color hover:border-secondary-color hover:-translate-y-1 hover:shadow-[0_8px_32px_rgba(6,182,212,0.4)]"
               >
                 See Certificates
-              </a>
+              </a> */}
             </div>
           </div>
         </div>

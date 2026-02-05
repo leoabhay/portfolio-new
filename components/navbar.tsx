@@ -30,7 +30,7 @@ export function Navbar({ activeSection }: NavbarProps) {
     { href: "#about", label: "About" },
     { href: "#services", label: "Skills" },
     { href: "#projects", label: "Projects" },
-    { href: "#certificates", label: "Certificates" },
+    // { href: "#certificates", label: "Certificates" },
     { href: "#contact", label: "Contact" },
   ]
 
