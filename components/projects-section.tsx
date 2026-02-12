@@ -35,10 +35,10 @@ const projects = [
     link: "https://github.com/leoabhay/TicTacToe",
   },
   {
-    title: "URL Shortener",
+    title: "SanoURL",
     description: "A simple URL shortener built using Node.js.",
-    image: "/images/url.png",
-    link: "https://github.com/leoabhay/url-shortner",
+    image: "/images/SanoURL.png",
+    link: "https://sanourl-36uo.onrender.com/",
   },
   {
     title: "Admin Panel",
@@ -148,6 +148,12 @@ const projects = [
     image: "/images/record.png",
     link: "https://record-kotha.vercel.app/",
   },
+   {
+    title: "Fit Pro",
+    description: "A project used for fitness made using Typescript.",
+    image: "/images/FitPro.png",
+    link: "https://fitpro-abhay.vercel.app/",
+  },
     {
     title: "Suyog Dental Clinic",
     description: "A project used for dental clinic using React.",
@@ -161,13 +167,13 @@ export function ProjectsSection() {
 
   return (
     <section id="projects" className="py-24 relative overflow-hidden">
-      <div className="absolute inset-0 bg-gradient-to-b from-transparent via-[#1a0b2e]/50 to-transparent" />
+      <div className="absolute inset-0 bg-linear-to-b from-transparent via-[#1a0b2e]/50 to-transparent" />
 
       <div className="container mx-auto px-4 relative z-10">
         <div className="text-center mb-16">
           <h1 className="text-4xl md:text-5xl font-bold mb-12 text-white">
             My <span className="gradient-text">Projects</span>
-            <span className="block h-2 w-40 bg-gradient-to-r from-primary-color to-secondary-color mx-auto mt-4 rounded-full" />
+            <span className="block h-2 w-40 bg-linear-to-r from-primary-color to-secondary-color mx-auto mt-4 rounded-full" />
           </h1>
         </div>
 
@@ -185,16 +191,16 @@ export function ProjectsSection() {
                   fill
                   className="object-cover transition-transform duration-500 hover:scale-110"
                 />
-                <div className="absolute inset-0 bg-gradient-to-br from-primary-color/10 to-secondary-color/10 mix-blend-overlay" />
+                <div className="absolute inset-0 bg-linear-to-br from-primary-color/10 to-secondary-color/10 mix-blend-overlay" />
               </div>
-              <div className="p-6 flex flex-col flex-grow">
+              <div className="p-6 flex flex-col grow">
                 <h1 className="text-2xl font-bold mb-3 text-white">{project.title}</h1>
-                <p className="text-base text-white/70 mb-6 flex-grow">{project.description}</p>
+                <p className="text-base text-white/70 mb-6 grow">{project.description}</p>
                 <a
                   href={project.link}
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="inline-block px-8 py-3 bg-gradient-to-r from-primary-color to-accent-color text-white text-base font-semibold uppercase tracking-wide rounded-lg transition-all duration-300 hover:shadow-[0_8px_32px_rgba(139,92,246,0.5)] hover:-translate-y-1 text-center"
+                  className="inline-block px-8 py-3 bg-linear-to-r from-primary-color to-accent-color text-white text-base font-semibold uppercase tracking-wide rounded-lg transition-all duration-300 hover:shadow-[0_8px_32px_rgba(139,92,246,0.5)] hover:-translate-y-1 text-center"
                   onClick={() => playSound("click", 0.25)}
                   onMouseEnter={(e) => {
                     e.stopPropagation()
