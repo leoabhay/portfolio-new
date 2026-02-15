@@ -44,78 +44,6 @@
   --bg-gradient: linear-gradient(135deg, #0f0f23 0%, #1a0b2e 50%, #16213e 100%);
 }
 
-/* Light mode color scheme */
-.light-mode {
-  /* Simplified light mode with clean white background and subtle accents */
-  /* Light mode with clean, professional look */
-  --background: oklch(0.99 0 0);
-  --foreground: oklch(0.12 0.02 265);
-  --card: oklch(0.98 0.005 265 / 0.7);
-  --card-foreground: oklch(0.12 0.02 265);
-  --popover: oklch(0.99 0 0);
-  --popover-foreground: oklch(0.12 0.02 265);
-  --primary: oklch(0.5 0.25 265);
-  --primary-foreground: oklch(0.99 0 0);
-  --secondary: oklch(0.45 0.2 195);
-  --secondary-foreground: oklch(0.99 0 0);
-  --muted: oklch(0.94 0.01 265);
-  --muted-foreground: oklch(0.35 0.02 265);
-  --accent: oklch(0.42 0.22 280);
-  --accent-foreground: oklch(0.99 0 0);
-  --destructive: oklch(0.577 0.245 27.325);
-  --destructive-foreground: oklch(0.99 0 0);
-  --border: oklch(0.8 0.02 265 / 0.3);
-  --input: oklch(0.96 0.01 265 / 0.8);
-  --ring: oklch(0.5 0.25 265);
-
-  /* Custom glassmorphism portfolio colors - LIGHT MODE */
-  --primary-color: #6d28d9;
-  --secondary-color: #0e7490;
-  --dark-color: #1e1b4b;
-  --light-color: #fefefe;
-  --accent-color: #7c3aed;
-  --glass-bg: rgba(255, 255, 255, 0.7);
-  --glass-border: rgba(109, 40, 217, 0.2);
-
-  /* Background gradient for light mode */
-  --bg-gradient: linear-gradient(135deg, #f0f9ff 0%, #e0e7ff 50%, #faf5ff 100%);
-}
-
-.dark {
-  --background: oklch(0.145 0 0);
-  --foreground: oklch(0.985 0 0);
-  --card: oklch(0.145 0 0);
-  --card-foreground: oklch(0.985 0 0);
-  --popover: oklch(0.145 0 0);
-  --popover-foreground: oklch(0.985 0 0);
-  --primary: oklch(0.985 0 0);
-  --primary-foreground: oklch(0.205 0 0);
-  --secondary: oklch(0.269 0 0);
-  --secondary-foreground: oklch(0.985 0 0);
-  --muted: oklch(0.269 0 0);
-  --muted-foreground: oklch(0.708 0 0);
-  --accent: oklch(0.269 0 0);
-  --accent-foreground: oklch(0.985 0 0);
-  --destructive: oklch(0.396 0.141 25.723);
-  --destructive-foreground: oklch(0.637 0.237 25.331);
-  --border: oklch(0.269 0 0);
-  --input: oklch(0.269 0 0);
-  --ring: oklch(0.439 0 0);
-  --chart-1: oklch(0.488 0.243 264.376);
-  --chart-2: oklch(0.696 0.17 162.48);
-  --chart-3: oklch(0.769 0.188 70.08);
-  --chart-4: oklch(0.627 0.265 303.9);
-  --chart-5: oklch(0.645 0.246 16.439);
-  --sidebar: oklch(0.205 0 0);
-  --sidebar-foreground: oklch(0.985 0 0);
-  --sidebar-primary: oklch(0.488 0.243 264.376);
-  --sidebar-primary-foreground: oklch(0.985 0 0);
-  --sidebar-accent: oklch(0.269 0 0);
-  --sidebar-accent-foreground: oklch(0.985 0 0);
-  --sidebar-border: oklch(0.269 0 0);
-  --sidebar-ring: oklch(0.439 0 0);
-}
-
 @theme inline {
   /* optional: --font-sans, --font-serif, --font-mono if they are applied in the layout.tsx */
   --color-background: var(--background);
@@ -176,13 +104,8 @@
     transition: background 0.5s ease;
   }
 
-  /* Light mode specific enhancements */
-  .light-mode body {
-    @apply text-dark-color;
-  }
-
-  /* Dark mode text colors */
-  body:not(.light-mode) {
+  /* Global text colors */
+  body {
     @apply text-light-color;
   }
 
@@ -209,13 +132,6 @@
     border-color: rgba(139, 92, 246, 0.5);
     transform: translateY(-2px);
     box-shadow: 0 8px 32px rgba(139, 92, 246, 0.2);
-  }
-
-  /* Light mode glass hover effect */
-  .light-mode .glass-hover:hover {
-    background: rgba(255, 255, 255, 0.9);
-    border-color: rgba(109, 40, 217, 0.4);
-    box-shadow: 0 8px 32px rgba(109, 40, 217, 0.15);
   }
 }
 
@@ -262,11 +178,6 @@
     transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
   }
 
-  /* Light mode glass card */
-  .light-mode .glass-card {
-    box-shadow: 0 8px 32px rgba(109, 40, 217, 0.08);
-  }
-
   .glass-card-hover {
     transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
   }
@@ -278,24 +189,9 @@
     box-shadow: 0 12px 40px rgba(139, 92, 246, 0.3);
   }
 
-  /* Light mode glass card hover */
-  .light-mode .glass-card-hover:hover {
-    background: rgba(255, 255, 255, 0.95);
-    border-color: rgba(109, 40, 217, 0.5);
-    box-shadow: 0 12px 40px rgba(109, 40, 217, 0.2);
-  }
-
   /* Gradient text for dark mode */
   .gradient-text {
     background: linear-gradient(135deg, #8b5cf6 0%, #06b6d4 50%, #a78bfa 100%);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    background-clip: text;
-  }
-
-  /* Light mode gradient text */
-  .light-mode .gradient-text {
-    background: linear-gradient(135deg, #6d28d9 0%, #0e7490 50%, #7c3aed 100%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     background-clip: text;
@@ -400,27 +296,14 @@
       box-shadow: 0 0 20px rgba(139, 92, 246, 0.3);
     }
     50% {
-      box-shadow: 0 0 40px rgba(139, 92, 246, 0.6), 0 0 60px rgba(6, 182, 212, 0.4);
+      box-shadow:
+        0 0 40px rgba(139, 92, 246, 0.6),
+        0 0 60px rgba(6, 182, 212, 0.4);
     }
   }
 
   .animate-glow {
     animation: glow 3s ease-in-out infinite;
-  }
-
-  /* Light mode specific glow animation */
-  @keyframes glowLight {
-    0%,
-    100% {
-      box-shadow: 0 0 20px rgba(109, 40, 217, 0.15);
-    }
-    50% {
-      box-shadow: 0 0 40px rgba(109, 40, 217, 0.3), 0 0 60px rgba(14, 116, 144, 0.2);
-    }
-  }
-
-  .light-mode .animate-glow {
-    animation: glowLight 3s ease-in-out infinite;
   }
 
   .animation-delay-200 {

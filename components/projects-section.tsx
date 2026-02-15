@@ -124,12 +124,24 @@ const projects = [
     image: "/images/shophub.png",
     link: "https://shophubby.netlify.app/",
   },
+  // {
+  //   title: "Easy Lib",
+  //   description: "A project used for library management using MERN.",
+  //   image: "/images/easylib.png",
+  //   link: "https://easylib.netlify.app/",
+  // },
     {
     title: "Anonymous Confessions",
     description: "A confession website made using MERN.",
     image: "/images/confession.png",
     link: "https://anony-confession.netlify.app/",
   },
+  // {
+  //   title: "SchoolHub",
+  //   description: "A project used for school management using MERN.",
+  //   image: "/images/schoolhub.png",
+  //   link: "https://schoolhub.netlify.app/",
+  // },
     {
     title: "Leo Messi",
     description: "A lionel messi fan website made using React.",
@@ -159,6 +171,12 @@ const projects = [
     description: "A project used for dental clinic using React.",
     image: "/images/dental.png",
     link: "https://suyogdentalclinic.netlify.app/",
+  },
+  {
+    title: "Chat App",
+    description: "A project used for chatting using MERN.",
+    image: "/images/chat-app.png",
+    link: "https://chat-app-j590.onrender.com",
   },
 ]
 
