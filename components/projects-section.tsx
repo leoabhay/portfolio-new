@@ -5,7 +5,7 @@ import { useSound } from "@/hooks/use-sound"
 
 const projects = [
   {
-    title: "Abhay Icecream Recipes",
+    title: "Icecream",
     description: "A simple web app built using Node.js.",
     image: "/images/icecream.png",
     link: "https://abhayicecreams.onrender.com/",
@@ -17,8 +17,8 @@ const projects = [
     link: "https://weatherbyabhay.onrender.com/",
   },
   {
-    title: "Inventory Management System",
-    description: "A minor college project I of NCIT made using PHP.",
+    title: "Habibi IMS",
+    description: "A minor college project I of NCIT related to inventory management made using PHP.",
     image: "/images/inventory.png",
     link: "https://imsprojectncit.infinityfree.me/?i=1",
   },
@@ -35,7 +35,7 @@ const projects = [
     link: "https://github.com/leoabhay/TicTacToe",
   },
   {
-    title: "SanoURL",
+    title: "Sano URL",
     description: "A simple URL shortener built using Node.js.",
     image: "/images/SanoURL.png",
     link: "https://sanourl-36uo.onrender.com/",
@@ -46,17 +46,29 @@ const projects = [
     image: "/images/adminpanel.png",
     link: "https://github.com/leoabhay/admin-panel---meaningby",
   },
+  // {
+  //   title: "Blog",
+  //   description: "A simple blog site built using Node.js.",
+  //   image: "/images/blog.png",
+  //   link: "https://github.com/leoabhay/node-workshop",
+  // },
   {
     title: "Khana Khajana",
-    description: "A minor college project II of NCIT made using MERN.",
+    description: "A minor college project II of NCIT related to recipe finder made using MERN.",
     image: "/images/khanakhajana.png",
     link: "https://khanakhajanancit.netlify.app/",
   },
   {
-    title: "Blog",
-    description: "A simple blog site built using Node.js.",
-    image: "/images/blog.png",
-    link: "https://github.com/leoabhay/node-workshop",
+    title: "Trade Sim",
+    description: "A simple stock market simulator web app built using MERN.",
+    image: "/images/tradesim.png",
+    link: "https://tradesim-abhay.netlify.app/",
+  },
+  {
+    title: "Email Sender",
+    description: "A simple email sender web app built using Python.",
+    image: "/images/email-sender.png",
+    link: "https://github.com/leoabhay/Email-Sender",
   },
   {
     title: "Flappy Bird",
@@ -96,15 +108,15 @@ const projects = [
   },
   {
     title: "Campus Ease",
-    description: "A major college project of NCIT made using MEAN and Python.",
+    description: "A major college project of NCIT related to campus automation made using MEAN and Python.",
     image: "/images/campusease.png",
     link: "https://campuseasencit.netlify.app/",
   },
   {
-    title: "Face Recognition Attendance System",
-    description: "A project made using Python.",
-    image: "/images/face.png",
-    link: "https://github.com/leoabhay/face-recognition-attendance",
+    title: "Attendify",
+    description: "A face recognition based attendance management system made using Python and React.",
+    image: "/images/face-attendance.png",
+    link: "https://github.com/leoabhay/Attendify",
   },
     {
     title: "One Piece",
@@ -124,12 +136,18 @@ const projects = [
     image: "/images/shophub.png",
     link: "https://shophubby.netlify.app/",
   },
-  // {
-  //   title: "Easy Lib",
-  //   description: "A project used for library management using MERN.",
-  //   image: "/images/easylib.png",
-  //   link: "https://easylib.netlify.app/",
-  // },
+  {
+    title: "Email Sender",
+    description: "A simple email sender web app made using Python.",
+    image: "/images/email-sender.png",
+    link: "https://github.com/leoabhay/Email-Sender",
+  },
+  {
+    title: "Easy Lib",
+    description: "A project used for library management using MERN.",
+    image: "/images/easylib.png",
+    link: "https://easylib.netlify.app/",
+  },
     {
     title: "Anonymous Confessions",
     description: "A confession website made using MERN.",
@@ -159,12 +177,18 @@ const projects = [
     description: "A project used for keeping the personal records made using MERN.",
     image: "/images/record.png",
     link: "https://record-kotha.vercel.app/",
-  },
+  },  
    {
     title: "Fit Pro",
     description: "A project used for fitness made using Typescript.",
     image: "/images/FitPro.png",
     link: "https://fitpro-abhay.vercel.app/",
+  },
+  {
+    title: "Spec Sync",
+    description: "A project used for virtual try on of eye wears using AI and ML.",
+    image: "/images/specsync.png",
+    link: "https://github.com/leoabhay/Spec-Sync",
   },
     {
     title: "Suyog Dental Clinic",
@@ -174,9 +198,15 @@ const projects = [
   },
   {
     title: "Chat App",
-    description: "A project used for chatting using MERN.",
+    description: "A project used for chatting using Nodejs.",
     image: "/images/chat-app.png",
     link: "https://chat-app-j590.onrender.com",
+  },
+  {
+    title: "Sync Board",
+    description: "A project used for real-time collaboration using MERN.",
+    image: "/images/syncboard.png",
+    link: "https://syncboard-abhay.netlify.app/",
   },
 ]
 
