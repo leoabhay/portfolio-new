@@ -208,6 +208,12 @@ const projects = [
     image: "/images/syncboard.png",
     link: "https://syncboard-abhay.netlify.app/",
   },
+  {
+    title: "Goal AI",
+    description: "A project used for smarter football analysis using Yolo.",
+    image: "/images/goalai.png",
+    link: "https://github.com/leoabhay/Goal-AI",
+  },
 ]
 
 export function ProjectsSection() {
