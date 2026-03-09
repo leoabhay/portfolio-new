@@ -214,6 +214,12 @@ const projects = [
     image: "/images/goalai.png",
     link: "https://github.com/leoabhay/Goal-AI",
   },
+    {
+    title: "Futsal Flow",
+    description: "A project used for futsal management using MERN.",
+    image: "/images/futsalflow.png",
+    link: "https://futsalflow.netlify.app/",
+  },
 ]
 
 export function ProjectsSection() {
