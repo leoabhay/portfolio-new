@@ -22,17 +22,23 @@ const projects = [
     image: "/images/inventory.png",
     link: "https://imsprojectncit.infinityfree.me/?i=1",
   },
+  // {
+  //   title: "Mountara",
+  //   description: "A simple tourism web app built using HTML, CSS and JS.",
+  //   image: "/images/mountara.png",
+  //   link: "https://mountara.onrender.com/",
+  // },
+  // {
+  //   title: "Vertex",
+  //   description: "A simple educational consultancy web app built using HTML, CSS and JS.",
+  //   image: "/images/vertex.png",
+  //   link: "https://vertex.onrender.com/",
+  // },
   {
     title: "Meaning By",
     description: "A simple e-dictionary web app built using React and Python.",
     image: "/images/meaningby.png",
     link: "https://meaningby.netlify.app/",
-  },
-  {
-    title: "Tic Tac Toe",
-    description: "A simple game using Java.",
-    image: "/images/tictactoe.png",
-    link: "https://github.com/leoabhay/TicTacToe",
   },
   {
     title: "Sano URL",
@@ -219,6 +225,12 @@ const projects = [
     description: "A project used for futsal management using MERN.",
     image: "/images/futsalflow.png",
     link: "https://futsalflow.netlify.app/",
+  },
+  {
+    title: "Insight AI",
+    description: "A project used for dashboard analytics using Fast API and Pandas.",
+    image: "/images/insight.png",
+    link: "https://github.com/leoabhay/Insight-AI",
   },
 ]
 
