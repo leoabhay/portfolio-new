@@ -9,6 +9,7 @@ import { ProjectsSection } from "@/components/projects-section"
 import { ContactSection } from "@/components/contact-section"
 // import { CertificatesSection } from "@/components/certificates-section"
 import { Footer } from "@/components/footer"
+import { CustomCursor } from "@/components/custom-cursor"
 
 export default function Portfolio() {
   const [activeSection, setActiveSection] = useState("hero")
@@ -36,6 +37,7 @@ export default function Portfolio() {
 
   return (
     <main className="min-h-screen">
+      <CustomCursor />
       <Navbar activeSection={activeSection} />
       <HeroSection />
       <AboutSection />

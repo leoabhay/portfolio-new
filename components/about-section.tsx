@@ -1,6 +1,6 @@
-"use client"
+"use client";
 
-import Image from "next/image"
+import Image from "next/image";
 
 export function AboutSection() {
   return (
@@ -28,11 +28,16 @@ export function AboutSection() {
               About <span className="gradient-text">me</span>
               <span className="block h-2 w-40 bg-gradient-to-r from-primary-color to-secondary-color mx-auto lg:mx-0 mt-4 rounded-full" />
             </h1>
-            <h2 className="text-2xl md:text-3xl font-semibold mb-6 text-light-color">IT Engineer</h2>
+            <h2 className="text-2xl md:text-3xl font-semibold mb-6 text-light-color">
+              IT Engineer
+            </h2>
             <p className="text-lg leading-relaxed text-white/70 mb-8">
-              Recently, I've completed my Bachelor's in Information Technology at NCIT and got registered as a general engineer in Nepal. I'm passionate about
-              creating innovative solutions and developing applications that make a difference. With expertise in
-              full-stack development, I love bringing ideas to life through clean code and intuitive user experiences.
+              Recently, I've completed my Bachelor's in Information Technology
+              at NCIT and got registered as a general engineer in Nepal. I'm
+              passionate about creating innovative solutions and developing
+              applications that make a difference. With expertise in full-stack
+              development, I love bringing ideas to life through clean code and
+              intuitive user experiences.
             </p>
             <div className="flex flex-wrap gap-4 justify-center lg:justify-start">
               <a
@@ -53,5 +58,5 @@ export function AboutSection() {
         </div>
       </div>
     </section>
-  )
+  );
 }

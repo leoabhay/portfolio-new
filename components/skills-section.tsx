@@ -1,24 +1,30 @@
-"use client"
+"use client";
 
-import Image from "next/image"
-import { useSound } from "@/hooks/use-sound"
+import Image from "next/image";
+import { useSound } from "@/hooks/use-sound";
 
 const skills = [
   { name: "Git", icon: "https://img.icons8.com/color/96/git.png" },
   { name: "Node.js", icon: "https://img.icons8.com/color/96/nodejs.png" },
   { name: "React", icon: "https://img.icons8.com/color/96/react-native.png" },
   { name: "MongoDB", icon: "https://img.icons8.com/color/96/mongodb.png" },
-  { name: "Java", icon: "https://img.icons8.com/color/96/java-coffee-cup-logo.png" },
+  {
+    name: "Java",
+    icon: "https://img.icons8.com/color/96/java-coffee-cup-logo.png",
+  },
   { name: "Python", icon: "https://img.icons8.com/color/96/python.png" },
-  { name: "TypeScript", icon: "https://img.icons8.com/color/96/typescript.png" },
+  {
+    name: "TypeScript",
+    icon: "https://img.icons8.com/color/96/typescript.png",
+  },
   { name: "Angular", icon: "https://img.icons8.com/color/96/angularjs.png" },
   { name: "C#", icon: "https://img.icons8.com/color/96/c-sharp-logo.png" },
   { name: "MySQL", icon: "https://img.icons8.com/color/96/mysql-logo.png" },
   { name: "SEO", icon: "https://img.icons8.com/color/96/seo.png" },
-]
+];
 
 export function SkillsSection() {
-  const { playSound } = useSound()
+  const { playSound } = useSound();
 
   return (
     <section id="services" className="py-24 relative overflow-hidden">
@@ -54,5 +60,5 @@ export function SkillsSection() {
         </div>
       </div>
     </section>
-  )
+  );
 }
